@@ -8,7 +8,6 @@ html, body {
 div.header {
     display: flex;
     height: 64px;
-    width: 100%;
     align-items: center;
 }
 
@@ -37,11 +36,28 @@ div.header {
     list-style-type: none;
     display: inline;
     font-size: 18px;
-    padding: 5px;
+    padding: 16px;
 }
 
 .header-list a {
     color: grey;
 }
 
+/* MAIN #1 */
 
+.main_1 {
+    display: flex;
+    background-color: rgb(182, 182, 182);
+}
+
+.main_1 img {
+    width: 60%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    padding: 24px;
+}
+
+.main_1-text { 
+    background-color: lavender;
+}
