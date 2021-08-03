@@ -1,63 +1,62 @@
-
-html, body {
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* Header */
+/* NAVIGATION BAR */ 
 
-div.header {
-    display: flex;
+.navbar {
+  height: 64px;
+  background-color: #f1f1f1;
+}
+
+.navbar .logo {
+    width: 50%;
     height: 64px;
-    align-items: center;
+    line-height: 64px;
+    display: inline-block;
 }
 
-.logo-container {
-    height: 32px;
-    width: 32px;
-    margin-left: 24px;
+.navbar .logo img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 24px;
+    height: 50px;
 }
 
-.logo-container img {
-    width: 100%;
-    height: auto;
+.navbar .logo p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 32px;
 }
 
-.brand-name {
-    font-size: 20px;
-}
 
-.header-options {
-    margin-left: auto;
-    float: right;
-    margin-right: 24px;
-}
-
-.header-list li {
+.nav-list {
+    height: 64px;
+    line-height: 64px;
     list-style-type: none;
-    display: inline;
-    font-size: 18px;
-    padding: 16px;
+    font-size: 16px;
+    float: right;
+    margin: 0;
+    padding: 0;
 }
 
-.header-list a {
-    color: grey;
+.navbar li {
+    float: left;
 }
 
-/* MAIN #1 */
-
-.main_1 {
-    display: flex;
-    background-color: rgb(182, 182, 182);
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0px 16px;
 }
 
-.main_1 img {
-    width: 60%;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 24px;
-    padding: 24px;
+.navbar li a:hover {
+    background-color: #555;
+    color: white;
+    
 }
 
-.main_1-text { 
-    background-color: lavender;
-}
