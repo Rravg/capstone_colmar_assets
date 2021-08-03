@@ -60,3 +60,45 @@
     
 }
 
+/* BANNER MAIN 1 */ 
+
+.main1 {
+    background-color: gray;
+}
+
+
+
+.main1 img {
+    width: 60%;
+    padding: 32px 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.banner-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text1 h1 {
+    font-size: 50px;
+}
+
+.text2 h3 {
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 32px;
+}
+
+.start p {
+    background-color: rgb(50, 53, 53);
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 3px;
+}
+
+.start p a {
+    text-decoration: none;
+    color: white;
+}
